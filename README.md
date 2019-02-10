@@ -2,8 +2,8 @@
 
 [![GoDoc](https://godoc.org/github.com/air-gases/cacheman?status.svg)](https://godoc.org/github.com/air-gases/cacheman)
 
-A useful gas that used to manage Cache-Control header for the web applications
-built using [Air](https://github.com/aofei/air).
+A useful gas that used to manage the Cache-Control header for the web
+applications built using [Air](https://github.com/aofei/air).
 
 ## Installation
 

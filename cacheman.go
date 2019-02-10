@@ -20,8 +20,8 @@ type GasConfig struct {
 	SMaxAge         int
 }
 
-// Gas returns an `air.Gas` that is used to manage "Cache-Control" header based
-// on the gc.
+// Gas returns an `air.Gas` that is used to manage the Cache-Control header
+// based on the gc.
 func Gas(gc GasConfig) air.Gas {
 	ds := []string{}
 	if gc.MustRevalidate {
