@@ -7,7 +7,7 @@ import (
 	"github.com/aofei/air"
 )
 
-// GasConfig is a set of configurations for the `Gas()`.
+// GasConfig is a set of configurations for the `Gas`.
 type GasConfig struct {
 	MustRevalidate  bool
 	NoCache         bool
