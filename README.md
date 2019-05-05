@@ -52,17 +52,17 @@ then visit `http://localhost:8080`.
 
 ## Community
 
-If you want to discuss this gas, or ask questions about it, simply post
+If you want to discuss Cacheman, or ask questions about it, simply post
 questions or ideas [here](https://github.com/air-gases/cacheman/issues).
 
 ## Contributing
 
-If you want to help build this gas, simply follow
+If you want to help build Cacheman, simply follow
 [this](https://github.com/air-gases/cacheman/wiki/Contributing) to send pull
 requests [here](https://github.com/air-gases/cacheman/pulls).
 
 ## License
 
-This gas is licensed under the Unlicense.
+This project is licensed under the Unlicense.
 
 License can be found [here](LICENSE).
