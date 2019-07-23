@@ -18,6 +18,8 @@ type GasConfig struct {
 	ProxyRevalidate bool
 	MaxAge          int
 	SMaxAge         int
+
+	Skippable func(*air.Request, *air.Response) bool
 }
 
 // Gas returns an `air.Gas` that is used to manage the Cache-Control header
@@ -64,6 +66,10 @@ func Gas(gc GasConfig) air.Gas {
 
 	return func(next air.Handler) air.Handler {
 		return func(req *air.Request, res *air.Response) error {
+			if gc.Skippable != nil && gc.Skippable(req, res) {
+				return next(req, res)
+			}
+
 			res.Header.Set("Cache-Control", directives)
 			err := next(req, res)
 			if err != nil && !res.Written {
