@@ -1,3 +1,5 @@
 module github.com/air-gases/cacheman
 
-require github.com/aofei/air v0.12.4
+go 1.13
+
+require github.com/aofei/air v0.12.5
