@@ -6,8 +6,8 @@ github.com/allegro/bigcache v1.2.1-0.20190218064605-e24eb225f156 h1:eMwmnE/GDgah
 github.com/allegro/bigcache v1.2.1-0.20190218064605-e24eb225f156/go.mod h1:Cb/ax3seSYIx7SuZdm2G2xzfwmv3TPSk2ucNfQESPXM=
 github.com/allegro/bigcache v1.2.1 h1:hg1sY1raCwic3Vnsvje6TT7/pnZba83LeFck5NrFKSc=
 github.com/allegro/bigcache v1.2.1/go.mod h1:Cb/ax3seSYIx7SuZdm2G2xzfwmv3TPSk2ucNfQESPXM=
-github.com/aofei/air v0.15.4 h1:5ehT/EeQLLxGXDvhFerrohDUC5WzdunIebqm6gitmoQ=
-github.com/aofei/air v0.15.4/go.mod h1:dPUS80goxsPYNJJOy4OeJeWVInpLhQo2BhMVpk0wfuA=
+github.com/aofei/air v0.15.5 h1:agxwbF3rVTZSlx3SUBos1DVgMWifuCbxb61vqK8vnRQ=
+github.com/aofei/air v0.15.5/go.mod h1:dPUS80goxsPYNJJOy4OeJeWVInpLhQo2BhMVpk0wfuA=
 github.com/aofei/mimesniffer v1.1.4 h1:UHWJSoEwQUUcVCMV1CzCzGaFkzy+tuk4YjPpTKxF48w=
 github.com/aofei/mimesniffer v1.1.4/go.mod h1:qKfo48RY7J7hyCwuMhkbeiT1XFrZ2Q3JbJcmyBHpUvM=
 github.com/cespare/xxhash/v2 v2.1.1 h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=
