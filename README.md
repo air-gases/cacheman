@@ -1,6 +1,6 @@
 # Cacheman
 
-[![GoDoc](https://godoc.org/github.com/air-gases/cacheman?status.svg)](https://godoc.org/github.com/air-gases/cacheman)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/air-gases/cacheman)](https://pkg.go.dev/github.com/air-gases/cacheman)
 
 A useful gas that used to manage the Cache-Control header for the web
 applications built using [Air](https://github.com/aofei/air).
